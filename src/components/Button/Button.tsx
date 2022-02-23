@@ -1,11 +1,11 @@
 import React from "react";
-
+import "./Button.css"
 interface ButtonProps {
     label: string
 }
 function Button(props : ButtonProps) {
   return (
-    <div>{props.label}</div>
+    <button>{props.label}</button>
   )
 }
 
