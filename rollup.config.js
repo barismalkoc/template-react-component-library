@@ -22,20 +22,7 @@ export default [
       },
     ],
     plugins: [
-      postcss({
-        minimize: true,
-        modules: true,
-        use: {
-          sass: null,
-          stylus: null,
-          less: { javascriptEnabled: true },
-        },
-        extract: true,
-      }),
-      postcss({
-        plugins: [],
-        minimize: true,
-      }),
+      postcss(),
       resolve(),
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),

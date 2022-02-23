@@ -1,6 +1,6 @@
 {
-  "name": "@bbm/template-react-component-library",
-  "version": "0.0.3",
+  "name": "@barismalkoc/template-react-component-library",
+  "version": "0.0.4",
   "description": "A react component library",
   "scripts": {
     "rollup": "rollup -c"
